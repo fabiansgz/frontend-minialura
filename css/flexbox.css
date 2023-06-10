@@ -1,0 +1,64 @@
+/*
+** Autor:    Fabian Suarez
+** Telegram: https://t.me/fabiansgz
+** Fecha:    10-Junio-2023
+*/
+.headerPrincipal .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.headerPrincipal-nav {
+	display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* MEDIO CUERPO */
+/* 
+** Aqui es donde aparece el video de YouTube
+** las ventajas de Alura y también
+** el botón de registro.
+*/
+.videoSobre .container {
+    color: #FFF;
+    display: flex;
+}
+
+.videoSobre-sobre {
+    margin-left: 2.5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+}
+
+.rodapePrincipal-navMap-list {
+	display:flex;	
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 255px;
+}
+
+/* FOOTER */
+/* 
+** Todo el pie de pagina donde aparecen los iconos
+** de los patrocinadores.
+*/
+.rodapePrincipal-patrocinadores-list {
+	display: flex;
+	width: 75%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.rodapePrincipal-contatoForm {
+    margin-top: 0;
+    text-align: left;
+    width: 25%;
+    justify-content: right;
+}

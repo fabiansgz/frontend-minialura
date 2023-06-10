@@ -18,6 +18,18 @@
 	justify-content: space-between;
 }
 
+/* CURSOS de ALURA*/
+.contenidoPrincipal-cursos {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos li {
+	width: 250px;
+	height: 100px;
+}
+
 /* MEDIO CUERPO */
 /* 
 ** Aqui es donde aparece el video de YouTube
